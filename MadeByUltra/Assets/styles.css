@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.background {
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  background-image: url("img/hero2.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  position: relative;
+}
+
+.background > * {
+  position: absolute;
+  color: white;
+}
+
+
+.title {
+  display: inline-block;
+  top: 50px;
+  left: 50px;
+  font-weight: 400;
+  text-decoration: none;
+}
+.title:hover {
+  opacity: 0.5;
+}
+.title > a{
+  text-transform: none;
+}
+
+.contact {
+  display: inline-block;
+  right: 50px;
+  top: 50px;
+  padding: 8px 20px;
+  letter-spacing: 2px;
+  font-size: 12px;
+  font-weight: 700;
+  border: 2px solid #fff;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.contact:hover {
+  background-color: rgba(255, 255, 255, 0.25)
+}
+
+.info {
+top: 40vh;
+margin-left: auto;
+display: block;
+}
+
+.header {
+  display: block;
+  font-size: 2.8em;
+  font-weight: 300;
+  line-height: 2.4em;
+}
+
+.info {
+  left: 50px;
+}
+
+.bio {
+  display: block;
+  font-size: 1.4em;
+  line-height: 1.8em;
+  font-weight: 300;
+}
+
+.services {
+  text-align: center;
+  margin: 100px auto 0 auto;
+  font-size: 1.8em;
+  line-height: 1em;
+  font-weight: 500;
+}
+
+
