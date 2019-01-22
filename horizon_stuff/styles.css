@@ -1,0 +1,51 @@
+body {
+    background-color: black
+}
+
+.page-divider {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    overflow: hidden;
+    position: relative;
+}
+
+.text-container {
+    display: inline-block;
+    position: relative;
+    padding: 10px;
+    height: 100vh;
+    font-size: 15vw;
+    line-height: 1em;
+    font-weight: 600;
+    font-family: 'Ventilate AOE';
+
+}
+
+.text-blend1 {
+    position: absolute;
+    color: rgb(255, 108, 159);
+
+    line-height: 1em;
+    mix-blend-mode: multiply;
+    filter: blur(5px)
+
+}
+
+.text-blend2 {
+    position: absolute;
+    color: rgb(255, 217, 0);
+
+    mix-blend-mode: multiply;
+    filter: blur(1px);
+    transform: translateX(5px) translateY(0px);
+    /* top: 1px;
+    right: 1px; */
+}
+
+.bg {
+    position: absolute;
+    width: 120vw;
+    height: 120vh;
+    background-color: white;
+    transform: rotateZ(-45deg) translateY(50vh)
+}
