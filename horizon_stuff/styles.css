@@ -42,10 +42,44 @@ body {
     right: 1px; */
 }
 
-.bg {
+.text-blend3 {
     position: absolute;
-    width: 120vw;
-    height: 120vh;
-    background-color: white;
-    transform: rotateZ(-45deg) translateY(50vh)
+    color: rgb(255, 255, 255);
+
+    line-height: 1em;
+    mix-blend-mode: multiply;
+    filter: blur(5px)
+
+}
+
+.text-blend4 {
+    position: absolute;
+    color: rgb(255, 255, 255);
+
+    mix-blend-mode: multiply;
+    filter: blur(1px);
+    transform: translateX(5px) translateY(0px);
+    /* top: 1px;
+    right: 1px; */
+}
+
+.text-blend5 {
+    position: absolute;
+    color: rgb(255, 0, 0);
+
+    line-height: 1em;
+    mix-blend-mode: unset;
+    filter: blur(5px)
+
+}
+
+.text-blend6 {
+    position: absolute;
+    color: rgb(255, 174, 0);
+
+    mix-blend-mode: unset;
+    filter: blur(1px);
+    transform: translateX(5px) translateY(0px);
+    /* top: 1px;
+    right: 1px; */
 }
